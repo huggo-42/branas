@@ -8,75 +8,75 @@
 
 ---
 
-Patterns of Enterprise Application Architecture
-Martin Fowler
+- Patterns of Enterprise Application Architecture
+    - Martin Fowler
 
-Microservices Patterns
-Chris Richardson
+- Microservices Patterns
+    - Chris Richardson
 
-Clean Code
-Robert Martin
+- Clean Code
+    - Robert Martin
 
-Design Patterns
-Erich Gamma, Ralph Johnson, Richard Helm, John Vlissides
+- Design Patterns
+    - Erich Gamma, Ralph Johnson, Richard Helm, John Vlissides
 
-Clean Architecture
-Robert Martin
+- Clean Architecture
+    - Robert Martin
 
-Refactoring
-Martin Fowler
+- Refactoring
+    - Martin Fowler
 
-Practical Microservices
-Ethan Garofolo
+- Practical Microservices
+    - Ethan Garofolo
 
-The Mythical Man Month
-Fred Brooks
+- The Mythical Man Month
+    - Fred Brooks
 
-The Pragmatic Programmer
-Andy Hunt e Dave Thomas
+- The Pragmatic Programmer
+    - Andy Hunt e Dave Thomas
 
-Seven Languages in Seven Weeks
-Bruce Tate
+- Seven Languages in Seven Weeks
+    - Bruce Tate
 
-Refactoring to Patterns
-Joshua Kerievisky
+- Refactoring to Patterns
+    - Joshua Kerievisky
 
-Agile Software Development
-Robert Martin
+- Agile Software Development
+    - Robert Martin
 
-Effective Java
-Joshua Bloch
+- Effective Java
+    - Joshua Bloch
 
-Software Architecture: The Hard Parts
-Neial Ford
+- Software Architecture: The Hard Parts
+    - Neial Ford
 
-Working Effectively with Legacy Code
-Michael Feathers
+- Working Effectively with Legacy Code
+    - Michael Feathers
 
-Seven Databases in Seven Weeks
-Luc Perkins
+- Seven Databases in Seven Weeks
+    - Luc Perkins
 
-Fundamentals of Software Architecture
-Neial Ford
+- Fundamentals of Software Architecture
+    - Neial Ford
 
-Learning Domain Driven Design
-Vlad Khononov
+- Learning Domain Driven Design
+    - Vlad Khononov
 
-Implementing Domain-Driven Design
-Vaughn Vernon
+- Implementing Domain-Driven Design
+    - Vaughn Vernon
 
-Domain-Driven Design
-Eric Evans
+- Domain-Driven Design
+    - Eric Evans
 
-xUnit Test Patterns
-Gerard Mezaros
+- xUnit Test Patterns
+    - Gerard Mezaros
 
-Domain-Driven Design Distilled
-Vaughn Vernon
+- Domain-Driven Design Distilled
+    - Vaughn Vernon
 
-Seven Concurrency Models in Seven Weeks
-Paul Butcher
+- Seven Concurrency Models in Seven Weeks
+    - Paul Butcher
 
-Node.js Design Patterns
-Mario Casciaro
+- Node.js Design Patterns
+    - Mario Casciaro
 
