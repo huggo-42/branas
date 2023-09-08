@@ -12,7 +12,7 @@ Code Smells:
 5 - comandos condicionais complexos (acúmulo de ifs e elses)
 6 - linha em branco (sem padrão)
 7 - números mágicos (que poderiam ser constantes)
-8 - responsabilidades diferentes (quebra do SRP)
+8 - responsabilidades diferentes (quebra do SRP Single Responsability Principle)
 9 - métodos grandes
 10 - classe grande
 11 - tratamento de exceções inadequado (return -1, try/catch desnecessário)
