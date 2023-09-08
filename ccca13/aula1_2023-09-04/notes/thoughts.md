@@ -1,0 +1,4 @@
+- It's required to add a new behavior to a branch of code 
+    - Should I refactor it before?
+    - Should I just go to somewhere in the code and add my code?
+- **That's the paradox we deal daily**
