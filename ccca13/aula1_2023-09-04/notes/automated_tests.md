@@ -1,6 +1,20 @@
 # Automated tests
 > are the only way to guarantee the code works and will keep on working
 
+---
+
+# FIRST -> rules
+- **Fast**: the tests must run fast
+- **Independent**: there should not be dependency between tests, it must be
+  possible to execute them separately
+- **Repeatable**: the test result must be the same independently of how many times
+  you run it 
+- **Self-validating**: the test itself must have a well define output that's
+  valid otherwise making it break
+- **Timely**: tests must be written while writting the source code
+
+---
+
 ## NOTE: we can still have manual tests
 - Manual tests are important, mainly for user acceptance
 - but they have to be additional
