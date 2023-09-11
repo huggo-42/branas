@@ -12,6 +12,8 @@ test.each([
 });
 
 test.each([
+    "",
+    "11111111111",
     "958.187.055-00",
     "958.187.055"
 ])("Não deve validar um cpf", function(cpf: string) {

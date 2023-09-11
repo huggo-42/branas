@@ -21,7 +21,7 @@ export default class AccountService {
             const date = new Date();
             const [existingAccount] = await connection.query("select * from cccat13.account where email = $1", [input.email]);
             if (existingAccount) throw new Error("Account already exists");
-            // if (!input.name.match(/[a-zA-Z] [a-zA-Z]+/)) throw new Error("Invalid name");
+            if (!input.name.match(/[a-zA-Z] [a-zA-Z]+/)) throw new Error("Invalid name");
             if (!input.email.match(/^(.+)@(.+)$/)) throw new Error("Invalid email");
             if (!this.cpfValidator.validate(input.cpf)) throw new Error("Invalid cpf");
             if (input.isDriver && !input.carPlate.match(/[A-Z]{3}[0-9]{4}/)) throw new Error("Invalid plate");
