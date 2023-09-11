@@ -59,4 +59,11 @@ export default class RideService {
         await connection.$pool.end();
         return ride;
     }
+
+    async getRides() {
+        const connection = pgp()("postgres://huggo:123456@localhost:5432/app");
+        const rides = await connection.query("select * from cccat13.ride where status = $1", RideStatus.REQUESTED);
+        await connection.$pool.end();
+        return { rides };
+    }
 }

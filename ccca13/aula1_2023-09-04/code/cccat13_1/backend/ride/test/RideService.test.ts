@@ -85,6 +85,12 @@ test("Should accept a ride", async function() {
     expect(() => rideService.acceptRide(input)).toBeTruthy();
 });
 
+test("Should request all rides", async function() {
+    const rideService = new RideService();
+    const rides = await rideService.getRides();
+    expect(rides.rides).toBeDefined();
+});
+
 test("Can not accept a ride if account is not driver", async function() {
     const newRideAndAccount = await createNewRideAndAccount();
     const newAccount = await createNewAccount(UserType.PASSANGER);

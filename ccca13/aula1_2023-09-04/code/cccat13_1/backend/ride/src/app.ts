@@ -63,3 +63,13 @@ app.get('/get-ride', async (request: Request, response: Response) => {
         return response.send(`${error}`);
     }
 });
+
+app.get('/get-rides', async (request: Request, response: Response) => {
+    const rideService = new RideService();
+    try {
+        const output = await rideService.getRides();
+        return response.send(output);
+    } catch (error) {
+        return response.send(`${error}`);
+    }
+});
